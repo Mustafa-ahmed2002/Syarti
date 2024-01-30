@@ -1,0 +1,6 @@
+.container {
+  max-width: 1680px;
+  min-height: 100vh;
+  margin: auto;
+  box-sizing: border-box;
+}

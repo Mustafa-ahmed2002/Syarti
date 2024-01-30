@@ -1,0 +1,55 @@
+.storecardP {
+  max-width: 800px;
+  padding: 10px 90px;
+
+  max-height: 50vh;
+}
+.storecardP .card {
+  width: 500px;
+  height: 450px;
+  border-radius: 16px;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+}
+.storecardP .cardhead {
+  padding: 0 30px;
+}
+.cardhead .cardtitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.cardhead .location {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardhead .location p {
+  color: var(--grey2, #6d758f);
+  font-size: 17px;
+}
+.cardhead .contact {
+  margin-top: -25px;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardhead .contact p {
+  color: var(--grey2, #6d758f);
+  font-size: 17px;
+}
+.cardhead .cardbutton {
+  cursor: pointer;
+  color: #fff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 170px;
+  height: 40px;
+  background-color: #6d758f;
+}

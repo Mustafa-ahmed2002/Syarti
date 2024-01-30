@@ -1,0 +1,51 @@
+.cardcontainer {
+  margin-top: 200px;
+}
+.carcardP {
+  margin: 0; /* Reset margin to ensure no default spacing */
+  box-sizing: border-box; /* Include padding and border in the total width and height */
+}
+.carcard {
+  display: flex;
+  width: 1200px;
+  height: 100px;
+  box-shadow: -8px 0px 20px 0px rgba(100, 115, 131, 0.13) inset;
+  border: 1px solid #e1e4ed6b;
+}
+.carimg {
+  margin-top: 5px;
+  margin-left: 10px;
+  max-width: 185px;
+  max-height: 85px;
+  border-radius: 4px;
+}
+.carinfo {
+  display: flex;
+  width: 68%;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-left: 20px;
+}
+.carinfo h3 {
+  margin-right: 50px;
+}
+.buybtn {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  display: flex;
+
+  width: 150px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #3498db;
+  border: none;
+  margin-top: 25px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.buybtn:hover {
+  background-color: #2980b9;
+}

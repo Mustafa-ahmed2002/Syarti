@@ -1,0 +1,9 @@
+.showroomcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+.storecardcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1400px;
+}

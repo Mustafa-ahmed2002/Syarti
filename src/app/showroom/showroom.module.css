@@ -1,0 +1,21 @@
+/* showroom.module.css */
+.theshowroomcontainer {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.thecardcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Add gap between items for better spacing */
+  max-width: 1300px; /* Limit the width of the container */
+  margin: 0 auto; /* Center the container */
+}
+
+/* Adjust the styles for each Car component if needed */
+.thecardcontainer .carcardP {
+  margin-bottom: 0; /* Reset margin-bottom for the Car components */
+}

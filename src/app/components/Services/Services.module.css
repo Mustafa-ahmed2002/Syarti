@@ -1,0 +1,41 @@
+.title h1 {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #405a7d;
+  font-size: 40px;
+}
+.sHome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head {
+  max-width: 500px;
+  margin: auto;
+}
+.services {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.services .first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.services .second {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.services h1 {
+  line-height: 1;
+  margin: 1;
+  padding: 0;
+  cursor: pointer;
+}
+.services img {
+  cursor: pointer;
+}

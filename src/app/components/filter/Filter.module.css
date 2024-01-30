@@ -1,0 +1,20 @@
+.filterP {
+  width: 300px;
+  height: 100vh;
+  box-shadow: -8px 0px 20px 0px rgba(100, 115, 131, 0.13) inset;
+}
+.headings .title {
+  padding: 0 20px;
+  color: var(--blue, #233863);
+  cursor: pointer;
+}
+.headings .elems {
+  padding: 80px;
+  color: var(--grey2, #6d758f);
+}
+
+.headings .elems .elem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
