@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import styles from "./register.module.css";
 import Container from "../components/container/Container";
-import Header from "../components/header/Header";
 import { Checkbox } from "antd";
 import Image from "next/image";
 import Google from "../assets/google.svg";

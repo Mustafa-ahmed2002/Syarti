@@ -2,11 +2,12 @@ import React from "react";
 import styles from "./StoreCard.module.css";
 import Container from "../container/Container";
 import Image from "next/image";
-import img from "../../assets/ac50a969324ad1d5ce83eaa5cf085bbd.PNG";
+import img from "../../assets/ac50a969324ad1d5ce83eaa5cf085bbd.png";
 import stars from "../../assets/stars.svg";
 import location from "../../assets/location.svg";
 import contact from "../../assets/contact.svg";
 import { FaArrowRight } from "react-icons/fa6";
+import Link from "next/link";
 const StoreCard = () => {
   return (
     <div className={styles.storecardP}>
@@ -35,7 +36,12 @@ const StoreCard = () => {
               <p>contact:077000655</p>
             </div>
             <div className={styles.cardbutton}>
-              <p>Explore Cars</p>
+              <Link
+                style={{ color: "#fff", textDecoration: "none" }}
+                href="./showroom"
+              >
+                <p>Explore Cars</p>
+              </Link>
               <FaArrowRight style={{ color: "white", paddingLeft: 5 }} />
             </div>
           </div>
